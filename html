@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puppy’s Word Den</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #ffeb3b;
+            padding: 20px;
+            font-size: 2em;
+            color: #5f6368;
+            border-bottom: 3px solid #ff9800;
+        }
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            max-width: 300px;
+            text-align: left;
+        }
+        .card img {
+            width: 50px;
+            border-radius: 50%;
+        }
+        .card .word {
+            font-size: 2em;
+            font-weight: bold;
+            color: #4caf50;
+        }
+        .card .meaning {
+            font-size: 1.2em;
+            color: #ff5722;
+        }
+        .card .sentence {
+            font-style: italic;
+            color: #607d8b;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #ff9800;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #ff5722;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Puppy’s Word Den
+</header>
+
+<div class="card">
+    <img src="puppy-icon.png" alt="Puppy Icon">
+    <div class="word">Vocabulary</div>
+    <div class="meaning">词汇</div>
+    <div class="sentence">She improved her vocabulary by reading daily.</div>
+    <button onclick="alert('Next Word!')">Next Word</button>
+</div>
+
+<!-- More cards can be added dynamically from a word list -->
+
+</body>
+</html>
